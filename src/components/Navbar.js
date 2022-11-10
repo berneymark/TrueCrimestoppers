@@ -4,7 +4,9 @@ export default class Navbar extends React.Component {
   render() {
     return (
       <nav>
-        <h3>The Responsibility Contract</h3>
+        <a href="/">
+          <h3>The Responsibility Contract</h3>
+        </a>
         <ul>
           <li>
             <a href="/about">
