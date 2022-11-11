@@ -42,6 +42,7 @@ main {
   background-color: blueviolet;
 }
 
+/* About Page */
 #about-page {
   padding: 0 20vw;
   width: 60vw;
@@ -55,4 +56,15 @@ main {
 #about-right img {
   border: 5px solid black;
   border-radius: 50%;
+}
+
+/* Contact Page */
+#contact-page,
+#contact-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form * {
+  margin: 10px 0;
 }
