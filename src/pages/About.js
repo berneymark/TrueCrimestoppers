@@ -3,9 +3,9 @@ import React from "react";
 export default class About extends React.Component {
   render() {
     return (
-      <div>
+      <main>
         <p>About</p>
-      </div>
+      </main>
     );
   }
 }

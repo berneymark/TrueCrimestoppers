@@ -23,11 +23,21 @@ nav ul * {
   padding-left: 20px;
 }
 
-/* Home Page */
-#home-page {
+/* Main Content */
+main {
+  /* Alignment */
   align-items: center;
-  background-color: blueviolet;
   display: flex;
-  height: 96vh;
+  height: 100vh;
   justify-content: center;
+  width: 100vw;
+
+  /* Placement */
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+
+  /* Design */
+  background-color: blueviolet;
 }
