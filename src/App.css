@@ -1,38 +1,70 @@
-.App {
-  text-align: center;
+/* Navbar */
+nav {
+  background-color: aqua;
+  display: flex;
+  width: calc(100% - 40px);
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav a,
+nav * a {
+  text-decoration: none;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav * a:hover {
+  color: grey;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+nav ul * {
+  display: inline;
+  padding-left: 20px;
+}
+
+/* Main Content */
+main {
+  /* Alignment */
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100vw;
+
+  /* Placement */
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+
+  /* Design */
+  background-color: blueviolet;
+}
+
+/* About Page */
+#about-page {
+  padding: 0 20vw;
+  width: 60vw;
+}
+
+#about-left {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#about-right img {
+  border: 5px solid black;
+  border-radius: 50%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* Contact Page */
+#contact-page,
+#contact-page form {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form * {
+  margin: 10px 0;
 }
