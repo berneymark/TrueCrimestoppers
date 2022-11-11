@@ -1,3 +1,4 @@
+/* Navbar */
 nav {
   background-color: aqua;
   display: flex;
@@ -20,4 +21,13 @@ nav * a:hover {
 nav ul * {
   display: inline;
   padding-left: 20px;
+}
+
+/* Home Page */
+#home-page {
+  align-items: center;
+  background-color: blueviolet;
+  display: flex;
+  height: 96vh;
+  justify-content: center;
 }
