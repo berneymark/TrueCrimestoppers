@@ -41,3 +41,18 @@ main {
   /* Design */
   background-color: blueviolet;
 }
+
+#about-page {
+  padding: 0 20vw;
+  width: 60vw;
+}
+
+#about-left {
+  display: flex;
+  flex-direction: column;
+}
+
+#about-right img {
+  border: 5px solid black;
+  border-radius: 50%;
+}
