@@ -42,6 +42,21 @@ main {
   background-color: blueviolet;
 }
 
+/* Home Page */
+#home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+#home-page a {
+  color: black;
+  text-decoration: none;
+}
+
+#home-page a:hover {
+  color: grey;
+}
+
 /* About Page */
 #about-page {
   padding: 0 20vw;
@@ -51,6 +66,7 @@ main {
 #about-left {
   display: flex;
   flex-direction: column;
+  padding-right: 150px;
 }
 
 #about-right img {
