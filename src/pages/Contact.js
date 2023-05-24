@@ -8,16 +8,20 @@ export default class Contact extends React.Component {
         <form id="contact-form">
           <input
             type="name"
-            placeholder="Enter your name..."/>
+            placeholder="Enter your name..."
+          />
           <input
             type="email"
-            placeholder="Enter your email..."/>
+            placeholder="Enter your email..."
+          />
           <input
             type="text"
-            placeholder="Enter your message..."/>
+            placeholder="Enter your message..."
+          />
           <input
             type="submit"
-            value="Submit"/>
+            value="Submit"
+          />
         </form>
       </main>
     );
