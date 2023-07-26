@@ -41,6 +41,15 @@ export default class About extends React.Component {
             solution that prevents crime by including everyone in a common
             cause, not just policing.
           </p>
+          <p>
+            And with widespread political and geo-political division including
+            race, gender, culture and inequality, inclusive solutions are thing
+            on the ground. If society is to successfully manage its most serious
+            issues around crime and climate change, we hate to challenge the
+            deep seated beliefs and cast-iron ideaological convictions got us
+            here and inclusive solutions are essential to succeed, or else
+            everyone's quality of life will be a distant memory.
+          </p>
         </section>
         <section id="about-right">
           <img
