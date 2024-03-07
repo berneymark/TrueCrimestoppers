@@ -7,13 +7,48 @@ export default class About extends React.Component {
         <section id="about-left">
           <h1>About</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            The principal of True Crimestoppers, Kevin Boyle, was a policeman in
+            New Zealand in the 1970's abd a security advisor to New Zealand
+            public companies throughough the 1980's to 1990's.
+          </p>
+          <p>
+            As a security manager, he learned that the policing ideaology
+            transferred into the proprietary management role did not prevent
+            repetitive internal offending and appeared to exacerbate it.
+            Research in the field founded The Responsibility Contract, a social
+            contract needed to overcome the obstructive criminal "code of
+            silence" caused by the policing ideaology, which opened the
+            floodgates to coalface information about offending to enable
+            intervention and prevention outcomes, saving previous losses
+            totalling multi millions.
+          </p>
+          <p>
+            The Responsibility Contract now underpins True Crimestoppers to not
+            only access real time coalface information about existing
+            information to stop it, as opposed to prosecuting it as a first
+            response, but it is direct witness to precursor anti-social and
+            potential criminal behaviours and can intervene to stop it
+            manifesting into more serious behaviour and offending.
+          </p>
+          <p>
+            Although achieving unprecendted success in the 1990's we recognise
+            The Responsibility Contract was before its time as society was not
+            ready to challenge policing, its long standing most trusted
+            institution. But it is now compelling with a proliferation of
+            unbated crime, particularly youth, gang and firearm offending
+            seriously depleting economic resources and impacting the quality of
+            life of New Zealanders, we believe it society is ready to adopt a
+            solution that prevents crime by including everyone in a common
+            cause, not just policing.
+          </p>
+          <p>
+            And with widespread political and geo-political division including
+            race, gender, culture and inequality, inclusive solutions are thing
+            on the ground. If society is to successfully manage its most serious
+            issues around crime and climate change, we hate to challenge the
+            deep seated beliefs and cast-iron ideaological convictions got us
+            here and inclusive solutions are essential to succeed, or else
+            everyone's quality of life will be a distant memory.
           </p>
         </section>
         <section id="about-right">
