@@ -6,13 +6,17 @@
 
 /* Navbar */
 nav {
-  background-color: var(--accent);
-  display: flex;
-  width: calc(100% - 40px);
-  justify-content: space-between;
+  /* Align */
   align-items: center;
+  display: flex;
+  justify-content: space-between;
   padding: 0 20px;
-  /* opacity: 0.5; */
+
+  /* Transform */
+  width: calc(100% - 40px);
+
+  /* Design */
+  background-color: var(--accent);
 }
 
 nav a,
@@ -32,19 +36,19 @@ nav ul * {
 
 /* Main Content */
 main {
-  /* Alignment */
+  /* Align */
   align-items: center;
   display: flex;
-  height: calc(100vh - 60px);
   justify-content: center;
-  width: 100vw;
-  padding-top: 60px;
-
-  /* Placement */
   left: 0;
+  padding-top: 60px;
   position: absolute;
   top: 0;
   z-index: -1;
+
+  /* Transform */
+  height: calc(100vh - 60px);
+  width: 100vw;
 
   /* Design */
   background-color: var(--background);
@@ -67,53 +71,56 @@ main {
 
 /* About Page */
 #about-page {
-  /* Alignment */
+  /* Align */
   flex-direction: column;
   justify-content: end;
 }
 
-#heading {
-  /* Alignment */
+#about-hero {
+  /* Align */
   align-items: center;
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 60px - 575px);
   justify-content: center;
-  width: 100%;
 
-  /* Design */
-  /* background-color: pink; */
+  /* Transform */
+  height: calc(100vh - 60px - 575px);
+  width: 100%;
 }
 
-#sections {
-  /* Alignment */
+#about-features {
+  /* Align */
   display: flex;
   flex-direction: row;
-  height: 575px;
   justify-content: space-around;
+
+  /* Transform */
+  height: 575px;
   width: 100%;
 
   /* Design */
   background-color: var(--accent);
-  /* opacity: 0.5; */
 }
 
-#sections > div {
+#about-features > div {
+  /* Align */
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+
+  /* Design */
+  color: #fff;
 }
 
 .about-circle {
+  /* Transform */
   border-radius: 50%;
-  background-color: #1f3460;
-  width: 200px;
   height: 200px;
-}
+  width: 200px;
 
-#sections > * {
-  color: #fff;
+  /* Design */
+  background-color: #1f3460;
 }
 
 /* Contact Page */
