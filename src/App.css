@@ -6,12 +6,17 @@
 
 /* Navbar */
 nav {
-  background-color: var(--accent);
-  display: flex;
-  width: calc(100% - 40px);
-  justify-content: space-between;
+  /* Align */
   align-items: center;
+  display: flex;
+  justify-content: space-between;
   padding: 0 20px;
+
+  /* Transform */
+  width: calc(100% - 40px);
+
+  /* Design */
+  background-color: var(--accent);
 }
 
 nav a,
@@ -31,18 +36,19 @@ nav ul * {
 
 /* Main Content */
 main {
-  /* Alignment */
+  /* Align */
   align-items: center;
   display: flex;
-  height: 100vh;
   justify-content: center;
-  width: 100vw;
-
-  /* Placement */
   left: 0;
+  padding-top: 60px;
   position: absolute;
   top: 0;
   z-index: -1;
+
+  /* Transform */
+  height: calc(100vh - 60px);
+  width: 100vw;
 
   /* Design */
   background-color: var(--background);
@@ -65,19 +71,56 @@ main {
 
 /* About Page */
 #about-page {
-  padding: 0 20vw;
-  width: 60vw;
+  /* Align */
+  flex-direction: column;
+  justify-content: end;
 }
 
-#about-left {
+#about-hero {
+  /* Align */
+  align-items: center;
   display: flex;
   flex-direction: column;
-  padding-right: 150px;
+  justify-content: center;
+
+  /* Transform */
+  height: calc(100vh - 60px - 575px);
+  width: 100%;
 }
 
-#about-right img {
-  border: 5px solid black;
+#about-features {
+  /* Align */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+  /* Transform */
+  height: 575px;
+  width: 100%;
+
+  /* Design */
+  background-color: var(--accent);
+}
+
+#about-features > div {
+  /* Align */
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  /* Design */
+  color: #fff;
+}
+
+.about-circle {
+  /* Transform */
   border-radius: 50%;
+  height: 200px;
+  width: 200px;
+
+  /* Design */
+  background-color: #1f3460;
 }
 
 /* Contact Page */
@@ -85,6 +128,12 @@ main {
 #contact-page form {
   display: flex;
   flex-direction: column;
+}
+
+#contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #contact-form * {
