@@ -12,6 +12,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 20px;
+  /* opacity: 0.5; */
 }
 
 nav a,
@@ -34,9 +35,10 @@ main {
   /* Alignment */
   align-items: center;
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 60px);
   justify-content: center;
   width: 100vw;
+  padding-top: 60px;
 
   /* Placement */
   left: 0;
@@ -65,19 +67,53 @@ main {
 
 /* About Page */
 #about-page {
-  padding: 0 20vw;
-  width: 60vw;
+  /* Alignment */
+  flex-direction: column;
+  justify-content: end;
 }
 
-#about-left {
+#heading {
+  /* Alignment */
+  align-items: center;
   display: flex;
   flex-direction: column;
-  padding-right: 150px;
+  height: calc(100vh - 60px - 575px);
+  justify-content: center;
+  width: 100%;
+
+  /* Design */
+  /* background-color: pink; */
 }
 
-#about-right img {
-  border: 5px solid black;
+#sections {
+  /* Alignment */
+  display: flex;
+  flex-direction: row;
+  height: 575px;
+  justify-content: space-around;
+  width: 100%;
+
+  /* Design */
+  background-color: var(--accent);
+  /* opacity: 0.5; */
+}
+
+#sections > div {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-circle {
   border-radius: 50%;
+  background-color: #1f3460;
+  width: 200px;
+  height: 200px;
+}
+
+#sections > * {
+  color: #fff;
 }
 
 /* Contact Page */
