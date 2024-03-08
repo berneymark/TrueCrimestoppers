@@ -123,6 +123,11 @@ main {
   background-color: #1f3460;
 }
 
+.feature-links > a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /* Contact Page */
 #contact-page,
 #contact-page form {
