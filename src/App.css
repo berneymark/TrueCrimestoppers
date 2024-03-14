@@ -129,6 +129,31 @@ main {
   text-decoration: none;
 }
 
+/* Our Founder */
+#our-founder {
+  flex-direction: column;
+  padding: 0 30vw;
+  width: 40vw;
+}
+
+#founder-content {
+  display: flex;
+}
+
+.avatar {
+  /* Align */
+  margin-left: 50px;
+
+  /* Transform */
+  height: 200px;
+  width: 200px;
+
+  /* Design */
+  border: 1px black solid;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
 /* Contact Page */
 #contact-page,
 #contact-page form {
