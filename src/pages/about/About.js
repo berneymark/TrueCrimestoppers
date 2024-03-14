@@ -22,13 +22,13 @@ export default class About extends React.Component {
           <div>
             <div class="about-circle"></div>
             <h1 class="feature-links">
-              <a href="/about/history">Our History</a>
+              <a href="/about/the-responsibility-contract">Our Idea</a>
             </h1>
           </div>
           <div>
             <div class="about-circle"></div>
             <h1 class="feature-links">
-              <a href="/about/history">Our Future</a>
+              <a href="/about/future">Our Future</a>
             </h1>
           </div>
         </section>

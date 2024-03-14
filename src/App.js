@@ -7,7 +7,7 @@ import Home from "./pages/Home.js";
 import About from "./pages/about/About.js";
 import Founder from "./pages/about/Founder.js";
 import Future from "./pages/about/Future.js";
-import History from "./pages/about/History.js";
+import Idea from "./pages/about/Idea.js";
 
 // Component Imports
 import Navbar from "./components/Navbar.js";
@@ -37,8 +37,8 @@ function App() {
             element={<Founder />}
           />
           <Route
-            path="/about/history"
-            element={<History />}
+            path="/about/the-responsibility-contract"
+            element={<Idea />}
           />
           <Route
             path="/about/future"
