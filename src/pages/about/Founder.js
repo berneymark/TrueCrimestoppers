@@ -32,8 +32,8 @@ export default class Founder extends React.Component {
           />
         </section>
         <section id="founder-quotes">
-          <p>
-            "As an ex-policeman who also worked professionally with the policing
+          <blockquote>
+            As an ex-policeman who also worked professionally with the policing
             ideology in private security management in New Zealand commerce, I
             am proud to have served in both roles. But having the opportunity to
             work alongside people in their workplace gave me greater insight
@@ -44,8 +44,8 @@ export default class Founder extends React.Component {
             justifying its presence and ongoing need, but it did not prevent
             offending and indeed aggravated it. This lead to my research with
             employees and management which founded The Responsibility Contract
-            that prevents offending in the antithesis of the policing ideology."
-          </p>
+            that prevents offending in the antithesis of the policing ideology.
+          </blockquote>
           <p>- Kevin Boyle</p>
         </section>
       </main>

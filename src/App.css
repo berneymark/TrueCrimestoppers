@@ -154,6 +154,12 @@ main {
   object-fit: cover;
 }
 
+#founder-quotes > blockquote::before {
+  content: '"'; /* Opening quote mark */
+  position: relative;
+  left: -40px;
+}
+
 /* Contact Page */
 #contact-page,
 #contact-page form {
