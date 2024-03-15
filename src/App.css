@@ -3,6 +3,10 @@
   --accent: #14213d;
   --background: #fff;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
 
 body h1 {
   font-size: 4em;
@@ -51,7 +55,6 @@ main {
   z-index: -1;
 
   /* Transform */
-  height: calc(100vh - 60px);
   width: 100vw;
 
   /* Design */
@@ -84,6 +87,7 @@ main a:hover {
 #home-page {
   display: flex;
   flex-direction: column;
+  height: calc(100vh - 60px);
 }
 
 /* About Page */
@@ -91,6 +95,8 @@ main a:hover {
   /* Align */
   flex-direction: column;
   justify-content: end;
+
+  height: calc(100vh - 60px);
 }
 
 #about-hero {
@@ -154,11 +160,12 @@ main a:hover {
 #our-founder {
   flex-direction: column;
   padding: 0 30vw;
+  position: absolute;
+  top: 60px;
   width: 40vw;
-}
-
-#founder-about {
+  height: 100%;
   display: flex;
+  justify-content: flex-start;
 }
 
 /* The Responsibility Contract */
