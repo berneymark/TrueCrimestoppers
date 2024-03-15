@@ -22,7 +22,7 @@ export default class Founder extends React.Component {
             alt="Placeholder of Kevin"
           />
         </section>
-        <section id="founder-quotes">
+        <section id="quotes">
           <blockquote>
             As an ex-policeman who also worked professionally with the policing ideology in private security management in New Zealand commerce, I am proud to have served in both roles. But having the opportunity to work alongside people in their workplace gave me greater insight into the inability of the security management’s role too prevent the internal offending it was employed to prevent. There was no doubt it was successful in investigating and prosecuting offending employees, which was unfortunately the measure of the role’s success, justifying its presence and ongoing need, but it did not prevent offending and indeed aggravated it. This lead to my research with employees and management which founded The Responsibility Contract that prevents offending in the antithesis of the policing ideology.
             <br />

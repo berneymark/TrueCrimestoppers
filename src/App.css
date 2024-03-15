@@ -67,6 +67,19 @@ main a:hover {
   color: black;
 }
 
+#quotes > blockquote {
+  position: relative;
+  top: -25px;
+}
+
+#quotes > blockquote::before {
+  content: '"'; /* Opening quote mark */
+  position: relative;
+  left: -30px;
+  top: 25px;
+  font-size: 4em;
+}
+
 /* Home Page */
 #home-page {
   display: flex;
@@ -148,6 +161,13 @@ main a:hover {
   display: flex;
 }
 
+/* The Responsibility Contract */
+#our-idea {
+  flex-direction: column;
+  padding: 0 30vw;
+  width: 40vw;
+}
+
 .avatar {
   /* Align */
   margin-left: 50px;
@@ -160,19 +180,6 @@ main a:hover {
   border: 1px black solid;
   border-radius: 50%;
   object-fit: cover;
-}
-
-#founder-quotes > blockquote {
-  position: relative;
-  top: -25px;
-}
-
-#founder-quotes > blockquote::before {
-  content: '"'; /* Opening quote mark */
-  position: relative;
-  left: -30px;
-  top: 25px;
-  font-size: 4em;
 }
 
 /* Contact Page */
