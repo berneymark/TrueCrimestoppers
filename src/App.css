@@ -154,10 +154,17 @@ main {
   object-fit: cover;
 }
 
+#founder-quotes > blockquote {
+  position: relative;
+  top: -25px;
+}
+
 #founder-quotes > blockquote::before {
   content: '"'; /* Opening quote mark */
   position: relative;
-  left: -40px;
+  left: -30px;
+  top: 25px;
+  font-size: 4em;
 }
 
 /* Contact Page */

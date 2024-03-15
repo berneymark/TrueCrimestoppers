@@ -45,8 +45,26 @@ export default class Founder extends React.Component {
             offending and indeed aggravated it. This lead to my research with
             employees and management which founded The Responsibility Contract
             that prevents offending in the antithesis of the policing ideology.
+            <br />
+            <br />
+            Peers were uncomfortable with my research findings, preferring to
+            celebrate the success of prosecution outcomes that justified their
+            ongoing roles. This unfortunately transferred into actively opposing
+            and trying to discredit me, which exposed another fault in policing
+            having sole stewardship of societal crime prevention method and
+            advice, allowing it to control the message around committed crime,
+            obfuscating its failure to prevent and obstructing it being
+            questioned or challenged with new innovation.
+            <br />
+            <br />I believe policing is unwitting of the reasons for its failure
+            in crime prevention which is why public scrutiny and discussion is
+            needed about the merits of my fundings and conclusions that moved
+            regular people who were victims of the fault to found{" "}
+            <a href="/about/the-responsibility-contract">
+              The Responsibility Contract.
+            </a>
+            <p>- Kevin Boyle</p>
           </blockquote>
-          <p>- Kevin Boyle</p>
         </section>
       </main>
     );
