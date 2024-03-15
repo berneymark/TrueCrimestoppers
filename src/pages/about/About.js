@@ -15,21 +15,21 @@ export default class About extends React.Component {
         <section id="about-features">
           <div>
             <div class="about-circle"></div>
-            <h1 class="feature-links">
+            <h2 class="feature-links">
               <a href="/about/founder">Our Founder</a>
-            </h1>
+            </h2>
           </div>
           <div>
             <div class="about-circle"></div>
-            <h1 class="feature-links">
+            <h2 class="feature-links">
               <a href="/about/the-responsibility-contract">Our Idea</a>
-            </h1>
+            </h2>
           </div>
           <div>
             <div class="about-circle"></div>
-            <h1 class="feature-links">
+            <h2 class="feature-links">
               <a href="/about/future">Our Future</a>
-            </h1>
+            </h2>
           </div>
         </section>
       </main>
