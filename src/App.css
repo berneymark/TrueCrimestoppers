@@ -168,6 +168,15 @@ main a:hover {
   justify-content: flex-start;
 }
 
+#founder-about {
+  display: flex;
+  flex-direction: row;
+}
+
+#founder-text {
+  flex-shrink: 1;
+}
+
 /* The Responsibility Contract */
 #our-idea {
   flex-direction: column;
