@@ -163,7 +163,6 @@ main a:hover {
   position: absolute;
   top: 60px;
   width: 40vw;
-  height: 100%;
   display: flex;
   justify-content: flex-start;
 }
@@ -181,6 +180,8 @@ main a:hover {
 #our-idea {
   flex-direction: column;
   padding: 0 30vw;
+  position: absolute;
+  top: 60px;
   width: 40vw;
 }
 
