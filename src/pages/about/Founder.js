@@ -39,10 +39,10 @@ export default class Founder extends React.Component {
               I understand the dilemma and difficulty of change, particularly a complete societal reversal of long accepted conventions that stem from a previously unknown fault in one of society’s most longstanding, trusted institutions, policing.
             </p>
             <p>
-              But the fact remains that the fault exists and will no go away by ignoring it.
+              But the fact remains that the fault exists and will not go away by ignoring it.
             </p>
             <p>
-              I founded The Responsibility Contract as its only remedy, there may another that I am unaware of. However, in the absence another solution, I would now propose The Responsibility Contract to society at large for public discussion and deliberation, to reinforce its efficacy to the leaders of the entities and organizations above who represent you and who are awaiting your direction on such social change.
+              I founded The Responsibility Contract as its only remedy, there may be another that I am unaware of. However, in the absence of another solution, I would now propose The Responsibility Contract to society at large for public discussion and deliberation, to reinforce its efficacy to the leaders of the entities and organizations above who represent you and who are awaiting your direction on such social change.
             </p>
             <p>
               For me the choice is simple.
