@@ -3,6 +3,14 @@
   --accent: #14213d;
   --background: #fff;
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body h1 {
+  font-size: 4em;
+}
 
 /* Navbar */
 nav {
@@ -47,26 +55,39 @@ main {
   z-index: -1;
 
   /* Transform */
-  height: calc(100vh - 60px);
   width: 100vw;
 
   /* Design */
   background-color: var(--background);
 }
 
+main a {
+  text-decoration: none;
+  color: grey;
+}
+
+main a:hover {
+  color: black;
+}
+
+#quotes > blockquote {
+  position: relative;
+  top: -25px;
+}
+
+#quotes > blockquote::before {
+  content: '"'; /* Opening quote mark */
+  position: relative;
+  left: -30px;
+  top: 25px;
+  font-size: 4em;
+}
+
 /* Home Page */
 #home-page {
   display: flex;
   flex-direction: column;
-}
-
-#home-page a {
-  color: black;
-  text-decoration: none;
-}
-
-#home-page a:hover {
-  color: grey;
+  height: calc(100vh - 60px);
 }
 
 /* About Page */
@@ -74,6 +95,8 @@ main {
   /* Align */
   flex-direction: column;
   justify-content: end;
+
+  height: calc(100vh - 60px);
 }
 
 #about-hero {
@@ -82,6 +105,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: center;
 
   /* Transform */
   height: calc(100vh - 60px - 575px);
@@ -113,6 +137,10 @@ main {
   color: #fff;
 }
 
+#about-features a:hover {
+  color: grey;
+}
+
 .about-circle {
   /* Transform */
   border-radius: 50%;
@@ -126,6 +154,49 @@ main {
 .feature-links > a {
   color: #fff;
   text-decoration: none;
+}
+
+/* Our Founder */
+#our-founder {
+  flex-direction: column;
+  padding: 0 30vw;
+  position: absolute;
+  top: 60px;
+  width: 40vw;
+  display: flex;
+  justify-content: flex-start;
+}
+
+#founder-about {
+  display: flex;
+  flex-direction: row;
+}
+
+#founder-text {
+  flex-shrink: 1;
+}
+
+/* The Responsibility Contract */
+#our-idea {
+  flex-direction: column;
+  padding: 0 30vw;
+  position: absolute;
+  top: 60px;
+  width: 40vw;
+}
+
+.avatar {
+  /* Align */
+  margin-left: 50px;
+
+  /* Transform */
+  height: 200px;
+  width: 200px;
+
+  /* Design */
+  border: 1px black solid;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 /* Contact Page */
