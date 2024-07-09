@@ -215,3 +215,18 @@ main a:hover {
 #contact-form * {
   margin: 10px 0;
 }
+
+@media only screen and (max-width: 768px) {
+  body h1 {
+    font-size: 3em;
+  }
+
+  #home-page {
+    text-align: center;
+  }
+
+  nav ul * {
+    display: inline;
+    padding: 0px 0px 0px 10px;
+  }
+}
