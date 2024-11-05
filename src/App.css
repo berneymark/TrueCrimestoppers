@@ -10,6 +10,7 @@ body {
 
 body h1 {
   font-size: 4em;
+  text-align: center;
 }
 
 /* Navbar */
@@ -156,17 +157,17 @@ main a:hover {
   text-decoration: none;
 }
 
-/* Our Founder */
-#our-founder {
+/* Articles */
+.article {
+  display: flex;
   flex-direction: column;
   padding: 0 30vw;
   position: absolute;
   top: 60px;
   width: 40vw;
-  display: flex;
-  justify-content: flex-start;
 }
 
+/* Our Founder */
 #founder-about {
   display: flex;
   flex-direction: row;
@@ -174,15 +175,6 @@ main a:hover {
 
 #founder-text {
   flex-shrink: 1;
-}
-
-/* The Responsibility Contract */
-#our-idea {
-  flex-direction: column;
-  padding: 0 30vw;
-  position: absolute;
-  top: 60px;
-  width: 40vw;
 }
 
 .avatar {
@@ -224,7 +216,6 @@ main a:hover {
 
   main p, h1, h2, h3 {
     padding: 0 20px;
-    /* width: calc(100vw - 40px); */
   }
 
   /* Navbar */
@@ -232,6 +223,7 @@ main a:hover {
     padding: 0;
     width: 100vw;
   }
+
   nav ul {
     padding-right: 20px;
   }
@@ -265,9 +257,9 @@ main a:hover {
   }
 
   /* About Sub-Articles */
-  #our-founder {
-    padding: 0 10px;
+  .article {
     width: 100%;
+    padding: 30px 0;
   }
 
   .article-content {
@@ -279,6 +271,10 @@ main a:hover {
 
   .avatar {
     margin-left: 0;
+  }
+
+  #founder-about {
+    flex-direction: column-reverse;
   }
 
   /* Contact Page */
