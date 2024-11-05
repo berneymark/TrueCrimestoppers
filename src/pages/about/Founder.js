@@ -5,10 +5,10 @@ import PlaceholderAvatar from "../../assets/img/person-placeholder.jpg";
 export default class Founder extends React.Component {
   render() {
     return (
-      <main id="our-founder">
+      <main class="article" id="our-founder">
         <h1>Our Founder</h1>
-        <section id="founder-about">
-          <section id="founder-text">
+        <section class="article-content">
+          <section class="article-text">
             <p>
               In the 1990's, I questioned what I believed to be a faulted international best practice to prevent theft and fraud in the workplace, to establish The Responsibility Contract that prevented previous $multi-million losses and symptomatic job redundancies, before the best international practice was dogmatically reinstated by the established order and the losses returned. 
             </p>

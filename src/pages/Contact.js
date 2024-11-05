@@ -4,6 +4,7 @@ export default class Contact extends React.Component {
   render() {
     return (
       <main id="contact-page">
+        <div>
         <h1>Contact</h1>
         <p>You can contact us by any of the below means.</p>
         <p>You can also send us a message in the below message box.</p>
@@ -29,6 +30,7 @@ export default class Contact extends React.Component {
             value="Submit"
           />
         </form>
+        </div>
       </main>
     );
   }
