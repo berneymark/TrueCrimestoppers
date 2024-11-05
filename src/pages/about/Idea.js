@@ -3,7 +3,7 @@ import React from "react";
 export default class Idea extends React.Component {
   render() {
     return (
-      <main id="our-idea">
+      <main class="article" id="our-idea">
         <h1>The Responsibility Contract</h1>
         <p>
           Intervention is the most effective way to prevent real-time criminal offending. Early intervention on precursor offending and antisocial behaviour is critical to prevent it from escalating into more serious criminal offending. This is the goal of the Responsibility Contract.

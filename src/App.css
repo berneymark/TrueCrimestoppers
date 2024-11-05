@@ -10,6 +10,7 @@ body {
 
 body h1 {
   font-size: 4em;
+  text-align: center;
 }
 
 /* Navbar */
@@ -94,7 +95,7 @@ main a:hover {
 #about-page {
   /* Align */
   flex-direction: column;
-  justify-content: end;
+  justify-content: start;
 
   height: calc(100vh - 60px);
 }
@@ -156,17 +157,17 @@ main a:hover {
   text-decoration: none;
 }
 
-/* Our Founder */
-#our-founder {
+/* Articles */
+.article {
+  display: flex;
   flex-direction: column;
   padding: 0 30vw;
   position: absolute;
   top: 60px;
   width: 40vw;
-  display: flex;
-  justify-content: flex-start;
 }
 
+/* Our Founder */
 #founder-about {
   display: flex;
   flex-direction: row;
@@ -174,15 +175,6 @@ main a:hover {
 
 #founder-text {
   flex-shrink: 1;
-}
-
-/* The Responsibility Contract */
-#our-idea {
-  flex-direction: column;
-  padding: 0 30vw;
-  position: absolute;
-  top: 60px;
-  width: 40vw;
 }
 
 .avatar {
@@ -214,4 +206,79 @@ main a:hover {
 
 #contact-form * {
   margin: 10px 0;
+}
+
+/* Phone Displays */
+@media only screen and (max-width: 768px) {
+  body h1 {
+    font-size: 3em;
+  }
+
+  main p, h1, h2, h3 {
+    padding: 0 20px;
+  }
+
+  /* Navbar */
+  nav {
+    padding: 0;
+    width: 100vw;
+  }
+
+  nav ul {
+    padding-right: 20px;
+  }
+
+  nav ul * {
+    display: inline;
+    padding: 0px 0px 0px 10px;
+  }
+
+  /* Home Page */
+  #home-page {
+    text-align: center;
+  }
+
+  /* About Page */
+  #about-page {
+    height: 100%;
+  }
+
+  #about-hero {
+    padding: 30px 0;
+    display: block;
+    height: 100%;
+  }
+
+  #about-features {
+    display: block;
+    flex-direction: column;
+    height: 100%;
+    padding-top: 30px;
+  }
+
+  /* About Sub-Articles */
+  .article {
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .article-content {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .avatar {
+    margin-left: 0;
+  }
+
+  #founder-about {
+    flex-direction: column-reverse;
+  }
+
+  /* Contact Page */
+  #contact-page > div {
+    padding: 30px 0;
+  }
 }
