@@ -95,9 +95,9 @@ main a:hover {
 #about-page {
   /* Align */
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
 
-  height: calc(100vh - 60px);
+  /* height: calc(100vh - 60px); */
 }
 
 #about-hero {
@@ -107,9 +107,10 @@ main a:hover {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  padding-bottom: 50px;
 
   /* Transform */
-  height: calc(100vh - 60px - 575px);
+  /* height: calc(100vh - 60px - 575px); */
   width: 100%;
 }
 
@@ -120,7 +121,7 @@ main a:hover {
   justify-content: space-around;
 
   /* Transform */
-  height: 575px;
+  height: 350px;
   width: 100%;
 
   /* Design */
