@@ -8,13 +8,13 @@ export default class Contact extends React.Component {
           <h1>Contact</h1>
           <section class="container" id="contact-container">
             <section id="contact-data">
-            <p>You can contact us by any of the below means.</p>
-            <p>You can also send us a message in the below message box.</p>
-            <div id="contact-details">
-              <p>Phone Number: 027 1234 5678</p>
-              <p>Email: truecrimestoppers@fakeemail.com</p>
-            </div>
-          </section>
+              <p>You can contact us by any of the below means.</p>
+              <p>You can also send us a message in the below message box.</p>
+              <div id="contact-details">
+                <p>Phone Number: 027 1234 5678</p>
+                <p>Email: truecrimestoppers @fakeemail.com</p>
+              </div>
+            </section>
           <section id="contact-form-sec">
             <form id="contact-form">
               <div>
