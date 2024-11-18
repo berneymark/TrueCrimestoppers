@@ -199,14 +199,42 @@ main a:hover {
   flex-direction: column;
 }
 
+#contact-container {
+  display: flex;
+  flex-direction: row;
+}
+
+#contact-container > section {
+  padding: 0 40px;
+  width: 50%;
+}
+
+#contact-data {
+  text-align: end;
+}
+
 #contact-details {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: end;
 }
 
 #contact-form * {
-  margin: 10px 0;
+  /* margin: 10px 0; */
+  padding: 10px 0;
+}
+
+#contact-form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact-form label {
+  font-weight: bold;
+}
+
+#contact-submit {
+  width: 100%;
 }
 
 /* Phone Displays */
@@ -285,7 +313,7 @@ main a:hover {
   }
 
   /* Contact Page */
-  #contact-page > div {
+  #contact-page > .content {
     padding: 30px 0;
   }
 }
